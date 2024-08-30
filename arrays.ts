@@ -66,7 +66,7 @@ function findNumbersDublicate(array: ArrayNumbers) {
 
     for (let i = 0; i < arr.length; i++) {
       if (arr[1] >= 2) {
-        return duplicate.push(arr[0]);
+        return duplicates.push(arr[0]);
       }
     }
   });
